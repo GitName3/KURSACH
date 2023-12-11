@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Курсовая работа</title>
+</head>
+<body>
+    <header>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <section class="top-nav">
+            <div>
+                <img src="Photos/13d.png" alt="" width="30px" height="30px">
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li><a href="#" class="menU">Главная</a></li>
+                <li><a href="News.html" class="menU">Новости</a></li>
+                <li><a href="Maps.html" class="menU">Карты</a></li>
+                <li><a href="Photos.html" class="menU">Фото</a></li>
+                <li><a href="Videos.html" class="menU">Видео</a></li>
+                <li><a href="contact.html" class="menU">Обратная связь</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <div class="content">
+       <div class="firstObj">
+        <div class="weather">
+            <div class="weather__inner">
+              <div class="current">
+                <div>Четверг, 7 декабря</div>
+                <div class="headerSpace"></div>
+                <div class="current__city"> Москва </div>
+                <div class="current__description"> небольшой снег </div>
+                <div class="current__temperature"> -15˚</div>
+              </div>
+        
+              <div class="forecast">
+                <div class="forecast__item">
+                  <div class="forecast__time">Сейчас</div>
+                  <div class="forecast__icon icon__01d"></div>
+                  <div class="forecast__temperature"> -13˚</div>
+                </div>
+        
+                <div class="forecast__item">
+                  <div class="forecast__time"> 18 </div>
+                  <div class="forecast__icon icon__01d"></div>
+                  <div class="forecast__temperature"> -14˚</div>
+                </div>
+        
+                <div class="forecast__item">
+                  <div class="forecast__time"> 21 </div>
+                  <div class="forecast__icon icon__04d"></div>
+                  <div class="forecast__temperature"> -15˚</div>
+                </div>
+        
+                <div class="forecast__item">
+                  <div class="forecast__time"> 00 </div>
+                  <div class="forecast__icon icon__04d"></div>
+                  <div class="forecast__temperature"> -16˚</div>
+                </div>
+        
+                <div class="forecast__item">
+                  <div class="forecast__time"> 03 </div>
+                  <div class="forecast__icon icon__02d"></div>
+                  <div class="forecast__temperature"> -16˚</div>
+                </div>
+        
+                <div class="forecast__item">
+                  <div class="forecast__time"> 06 </div>
+                  <div class="forecast__icon icon__02d"></div>
+                  <div class="forecast__temperature"> -16˚</div>
+                </div>
+              </div>
+        
+              <div class="details">
+                <div class="details__row">
+                  <div class="details__item feelslike">
+                    <div class="details__name">ощущается как</div>
+                    <div class="details__value"> -20˚</div>
+                  </div>
+                  <div class="details__item pressure">
+                    <div class="details__name">давление</div>
+                    <div class="details__value"> 764 мм. рт. ст.</div>
+                  </div>
+                </div>
+                <div class="details__row">
+                  <div class="details__item humidity">
+                    <div class="details__name">влажность</div>
+                    <div class="details__value"> 89 %</div>
+                  </div>
+                  <div class="details__item wind">
+                    <div class="details__name">ветер</div>
+                    <div class="details__value"> 2 м/с</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script src='js/weather.js'></script>
+       </div>
+       
+       <div class="spaceAbove"></div>
+       <div>
+            <h1 class="BlackText">Погода на сегодня</h1>
+            <br>
+            <h2 class="greyText">Ниже представлена краткая свобка о погоде на сегодня</h2>
+            <br>
+        </div>
+       <div class="temp">
+            <div class="card">
+                <h4 class="C4">00:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-11<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-15<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">01:00</h4>
+                <h6 class="C6">Снег</h6>
+                <img src="Photos/13d.png" alt="icon">
+                <h1 class="C1">-11<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-15<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">02:00</h4>
+                <h6 class="C6">Снег</h6>
+                <img src="Photos/13d.png" alt="icon">
+                <h1 class="C1">-12<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-16<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">03:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-12<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-16<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">04:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-12<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-16<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">05:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-12<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-16<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">06:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/13d.png" alt="icon">
+                <h1 class="C1">-12<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-16<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">07:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-13<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-17<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">08:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-13<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-17<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">09:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-13<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-17<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">10:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-13<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-17<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">11:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-13<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-17<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">12:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-13<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-17<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">13:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/02d.png" alt="icon">
+                <h1 class="C1">-12<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-16<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">14:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/02d.png" alt="icon">
+                <h1 class="C1">-12<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-16<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">15:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/02d.png" alt="icon">
+                <h1 class="C1">-12<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-16<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">16:00</h4>
+                <h6 class="C6">Снег</h6>
+                <img src="Photos/13d.png" alt="icon">
+                <h1 class="C1">-13<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-17<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">17:00</h4>
+                <h6 class="C6">Снег</h6>
+                <img src="Photos/13d.png" alt="icon">
+                <h1 class="C1">-13<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-18<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">18:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-14<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-19<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">19:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-14<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-19<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">20:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-15<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-19<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">21:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-15<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-20<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">22:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-15<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-20<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">23:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-15<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-20<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="C4">24:00</h4>
+                <h6 class="C6">Пасмурно</h6>
+                <img src="Photos/04d.png" alt="icon">
+                <h1 class="C1">-15<sup>&deg;</sup></h1>
+                <div class="container">
+                    <div class="details">
+                        <p>Ощущается как</p>
+                        <span>-20<sup>&deg;</sup></span>
+                    </div>
+                    <div class="details">
+                        <p>Влажность</p>
+                        <span>40 %</span>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+        <div class="spaceAbove">
+
+        </div>
+        <div class="weeklyUpdate">
+            <h1 class="BlackText">Погода на эту неделю</h1>
+            <br>
+            <h2 class="greyText">Ниже представлена краткая свобка о погоде на этой неделе</h2>
+            <br>
+        </div>
+        <div class="week">
+            <div class="temp">
+                <div class="card">
+                    <h4 class="C4">Понедельник, 4 декабря 2023 год</h4>
+                    <h6 class="C6">Небольшой снег</h6>
+                    <img src="Photos/02d.png" alt="icon">
+                    <h1 class="C1">-10<sup>&deg;</sup></h1>
+                    <div class="container">
+                        <div class="details">
+                            <p>Ощущается как</p>
+                            <span>-7<sup>&deg;</sup></span>
+                        </div>
+                        <div class="details">
+                            <p>Влажность</p>
+                            <span>40 %</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 class="C4">Вторник, 5 декабря 2023 год</h4>
+                    <h6 class="C6">Небольшой снег</h6>
+                    <img src="Photos/04d.png" alt="icon">
+                    <h1 class="C1">-11<sup>&deg;</sup></h1>
+                    <div class="container">
+                        <div class="details">
+                            <p>Ощущается как</p>
+                            <span>-8<sup>&deg;</sup></span>
+                        </div>
+                        <div class="details">
+                            <p>Влажность</p>
+                            <span>40 %</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 class="C4">Среда, 6 декабря 2023 год</h4>
+                    <h6 class="C6">Небольшой снег</h6>
+                    <img src="Photos/04d.png" alt="icon">
+                    <h1 class="C1">-12<sup>&deg;</sup></h1>
+                    <div class="container">
+                        <div class="details">
+                            <p>Ощущается как</p>
+                            <span>-10<sup>&deg;</sup></span>
+                        </div>
+                        <div class="details">
+                            <p>Влажность</p>
+                            <span>40 %</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 class="C4">Четверг, 7 декабря 2023 год</h4>
+                    <h6 class="C6">Снег</h6>
+                    <img src="Photos/13d.png" alt="icon">
+                    <h1 class="C1">-12<sup>&deg;</sup></h1>
+                    <div class="container">
+                        <div class="details">
+                            <p>Ощущается как</p>
+                            <span>-10<sup>&deg;</sup></span>
+                        </div>
+                        <div class="details">
+                            <p>Влажность</p>
+                            <span>40 %</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 class="C4">Пятница, 8 декабря 2023 год</h4>
+                    <h6 class="C6">Снег</h6>
+                    <img src="Photos/13d.png" alt="icon">
+                    <h1 class="C1">-16<sup>&deg;</sup></h1>
+                    <div class="container">
+                        <div class="details">
+                            <p>Ощущается как</p>
+                            <span>-20<sup>&deg;</sup></span>
+                        </div>
+                        <div class="details">
+                            <p>Влажность</p>
+                            <span>40 %</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 class="C4">Суббота, 9 декабря 2023 год</h4>
+                    <h6 class="C6">Облачно с прояснениями</h6>
+                    <img src="Photos/02d.png" alt="icon">
+                    <h1 class="C1">-15<sup>&deg;</sup></h1>
+                    <div class="container">
+                        <div class="details">
+                            <p>Ощущается как</p>
+                            <span>-21<sup>&deg;</sup></span>
+                        </div>
+                        <div class="details">
+                            <p>Влажность</p>
+                            <span>40 %</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 class="C4">Воскресенье, 10 декабря 2023 год</h4>
+                    <h6 class="C6">Облачно с прояснениями</h6>
+                    <img src="Photos/02d.png" alt="icon">
+                    <h1 class="C1">-17<sup>&deg;</sup></h1>
+                    <div class="container">
+                        <div class="details">
+                            <p>Ощущается как</p>
+                            <span>-24<sup>&deg;</sup></span>
+                        </div>
+                        <div class="details">
+                            <p>Влажность</p>
+                            <span>40 %</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+       <div class="citySearch">
+            <div class="spaceAbove"></div>
+            <div class="searchBox">
+                <h1 class="BlackText">Укажите ваш город, чтобы узнать погоду в нем</h1>
+            </div>
+            <div class="searchPanel">
+                <div class="search-container">
+                    <input type="text" id="city-search" placeholder="Введите город" class="inputCity">
+                    <button id="search-button" aria-label="Поиск">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"/>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+       </div>
+       <div class="lilspace"></div>
+       <div class="Citynotif">
+            <h1 class="BlackText">Популярные города</h1>
+            <br>
+            <h2 class="greyText">В этом разделе представлены последнию информации о погоде для городов, которыми чаще всего интересуются пользователи</h2>
+       </div>
+       <div class="cities">
+        <div class="background"></div>
+        <div class="background-texture"></div>
+    
+        <section class="carousel">
+          <div class="carousel__container">
+            <div class="carousel-item">
+              <img
+                class="carousel-item__img"
+                src="Photos/LNDpic.jpeg"
+                alt="people"
+              />
+              <div class="carousel-item__details">
+                <div class="controls">
+                  <span>London</span>
+                </div>
+                <h5 class="carousel-item__details--title">-5˚С  Идет дождь</h5>
+                <h6 class="carousel-item__details--subtitle"></h6>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="carousel-item__img"
+                src="Photos/NYpic.jpeg"
+                alt="people"
+              />
+              <div class="carousel-item__details">
+                <div class="controls">
+                  <span>Нью-Йорк</span>
+                  <span></span>
+                </div>
+                <h5 class="carousel-item__details--title">-15˚С   Пасмурно</h5>
+                <h6 class="carousel-item__details--subtitle"></h6>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="carousel-item__img"
+                src="Photos/Romepic.jpeg"
+                alt="people"
+              />
+              <div class="carousel-item__details">
+                <div class="controls">
+                  <span>Рим</span>
+                </div>
+                <h5 class="carousel-item__details--title">+10˚С  Солнечно</h5>
+                <h6 class="carousel-item__details--subtitle"></h6>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="carousel-item__img"
+                src="Photos/Tokyopic.webp"
+                alt="people"
+              />
+              <div class="carousel-item__details">
+                <div class="controls">
+                  <span>Токио</span>
+                </div>
+                <h5 class="carousel-item__details--title">+2˚С Пасмурно</h5>
+                <h6 class="carousel-item__details--subtitle"></h6>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="carousel-item__img"
+                src="Photos/Parispic.avif"
+                alt="people"
+              />
+              <div class="carousel-item__details">
+                <div class="controls">
+                  <span>Париж</span>
+                </div>
+                <h5 class="carousel-item__details--title">-5˚С Солнечно</h5>
+                <h6 class="carousel-item__details--subtitle"></h6>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="carousel-item__img"
+                src="Photos/Riopic.avif"
+                alt="people"
+              />
+              <div class="carousel-item__details">
+                <div class="controls">
+                  <span>Бразилия</span>
+                </div>
+                <h5 class="carousel-item__details--title">+19˚С Солнечно</h5>
+                <h6 class="carousel-item__details--subtitle"></h6>
+              </div>
+            </div>
+    
+            <div class="carousel-item">
+              <img
+                class="carousel-item__img"
+                src="Photos/Moscpic.jpeg"
+                alt="people"
+              />
+              <div class="carousel-item__details">
+                <div class="controls">
+                  <span>Москва</span>
+                </div>
+                <h5 class="carousel-item__details--title">-15˚С Снег</h5>
+                <h6 class="carousel-item__details--subtitle"></h6>
+              </div>
+            </div>
+          </div>
+        </section>
+       </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>О сайте</h4>
+                    <ul>
+                        <li><a href="#">Сайт сделан студентом РТУ МИРЭА, группы ИКБО-01-22 направления 09.03.04 Власовым Антоном Андреевичем. Тема сайта - "погода на месяц".</a></li>                       
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ссылки</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">News about weather</a></li>
+                        <li><a href="#">Map of percipitations</a></li>
+                        <li><a href="#">Photos related to topic</a></li>
+                        <li><a href="#">Videos related to topic</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li><a href="#">Проспект Вернадского 78</a></li>
+                        <li><a href="#">+7 925 866 72 34</a></li>
+                        <li><a href="#">SomeRandomMail@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Социальные сети</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>
