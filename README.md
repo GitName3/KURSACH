@@ -2,4 +2,4 @@
  
 Выполнил студент группы ИКБО-01-22 Власов А.А.
 
-Демонстрация:  https://gitname3.github.io/KURSACH /
+Демонстрация:  https://gitname3.github.io/KURSACH 
