@@ -104,6 +104,7 @@ html, body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    z-index: 10;
   }
   #menu-toggle ~ .menu li {
     height: 0;
@@ -242,6 +243,7 @@ ul{
   background: linear-gradient(#333333, #000000);
   text-align: center;
   vertical-align: middle;
+  z-index: 1;
 }
 .inner-slider .title {
   position: relative;
